@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabeçario">
+        <section id="ladodireito">
+            <a href=""><img src="imagens/Meu projeto.png" alt=""></a>
+            <a href="" class="correção">AD - NOVO TEMPO EM RAMOS</a>
+        </section>
+        <section id="ladoesquerdo">
+            <a href="#" id="imagenscabeçario"><img src="imagens/logo-2.png" alt=""></a>
+            <a href=" https://devyure.github.io/Projeto-igreja/" id="VoltaraPáginainicial" class="correção" >Voltar a Página inicial</a>
+            <a href="#" class="correção" id="cadastro">Cadastre-se</a>
+            <a href="#" class="correção" id="fazerlogin">Fazer Login</a>
+        </section>
+    </header>
+
+    <main>
+        <form id="formulario">
+            <Section id="titulo">
+                <h1 class="titulo">SEJAM BEM-VINDOS</h1>
+                <P class="titulo2">NOVOS MENBROS</P>
+            </Section>
+            <fieldset id="contener">
+                <section>
+                    <div>
+                        <label>
+                            <p class="titulo3">
+                                Nome Completo
+                        </p>
+                        </label>
+                        <input type="text" type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label>
+                            <p class="titulo3">Seu Email :</p>
+                        </label>
+                        <input type="email" type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>
+                            <p class="titulo3">
+                                Qual a sua Idade ?
+                            </p>
+                        </label>
+                        <input type="text" type="text" name="idade" id="idade">
+                    </div>
+                    <div>
+                        <label class="titulo3">De qual Igreja você Vem !</label>
+                        <select  id="tiposdeigrejas">
+                            <option selected disabled value="">Selecione</option>
+                            <option class="titulo4">Luterana</option>
+                            <option class="titulo4">Anglicana</option>
+                            <option class="titulo4">Calvinista</option>
+                            <option class="titulo4">Metodista</option>
+                            <option class="titulo4">Batista</option>
+                            <option class="titulo4">Presbiteriana</option>
+                            <option class="titulo4">Pentecostal</option>
+                            <option class="titulo4">Neopentecostal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="titulo3">De qual ministerio você deseja Fazer parte</label>
+                        <br>
+                        <div id="opçoes">
+                            <label class="titulo4"><input type="radio" name="Ministério" value="ministeriodosjovens" id="ministeriodosjovens" class="titulo">Ministério dos jovens</label>
+                            <br>
+                            <label class="titulo4"><input type="radio" name="Ministério" value="ministeriodosadolecentes"
+                                id="Ministériodosadolescentes">Ministério dos adolescentes</label>
+                            <br>
+                            <label class="titulo4"><input type="radio" name="Ministério" value="ministeriodosInfantil"
+                                id="MinistériodosInfantil">Ministério dos Infantil</label>
+                            <br>
+                            <label class="titulo4"><input type="radio" name="Ministério" value="MesadeInterseção"
+                                id="MesadeInterseção">Mesa de Interseção</label>
+                            <br>
+                            <label class="titulo4"><input type="radio" name="Ministério" value="Mídia"
+                                id="Mídia">Mídia</label>
+                            <br>
+                            <label class="titulo4"><input type="radio" name="Ministério" value="ministeriodeLouvor"
+                                id="MinistériodeLouvor">Ministério de Louvor</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="titulo3">Fale mais sobre você !!</label> <br>
+                        <textarea name="faleimaissobrevoce" id="faleimaissobrevoce" rows="10"></textarea>
+                    </div>
+                    <button id="button"> Enviar </button>
+                </section>
+            </fieldset>
+        </form>
+    </main>
+    <!--
+        Yure Santos felix ferreira
+    -->
+</body>
+</html>
