@@ -31,11 +31,13 @@
 
 
 body {
-    background-color: rgba(255, 68, 0, 0.767);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+background-image: url(imagens/tema\ de\ fundo\ 1-1024.webp);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.foto {
+    background-color: rgba(255, 68, 0, 0.377);
     width: 100%;
 }
 
@@ -71,6 +73,12 @@ header > section > a {
 .correção {
     padding-top: 25px;
     padding-left: 20px;
+}
+
+#formulario {
+    display: block;
+    margin: auto;
+    width: 800px;
 }
 
 #ladoesquerdo {
@@ -132,6 +140,10 @@ header > section > a {
 
 #contener {
     padding: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    background-color: rgba(255, 68, 0, 0.37);
 }
 
 #titulo {
