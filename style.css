@@ -34,14 +34,8 @@ body {
 background-image: url(imagens/tema\ de\ fundo\ 1-1024.webp);
 background-repeat: no-repeat;
 background-size: cover;
+opacity: 0.7;
 }
-
-.foto {
-    background-color: rgba(255, 68, 0, 0.377);
-    width: 100%;
-}
-
-
 
 .cabeçario {
     display: flex;
